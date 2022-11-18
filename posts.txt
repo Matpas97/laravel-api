@@ -1,0 +1,25 @@
+posts
+1   titolo1
+2   titolo2
+3   titolo3
+
+tags
+1 tag1
+2 tag2
+3 tag3
+
+post_tag
+1 1
+1 3
+
+------ edit via form
+1 1
+1 2
+------ submit
+
+post->tags()->attach(2)
+post->tags()->detach(3)
+---> è uguale a scrivere
+
+post->tags()->sync([1, 2])
+
