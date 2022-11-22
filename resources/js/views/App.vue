@@ -11,7 +11,7 @@ import ExampleComponent from '../components/ExampleComponent.vue'
 
 export default {
     name: 'App',
-    components: {ExampleComponent}
+    components: {PostsComponent}
     }
 </script>
 

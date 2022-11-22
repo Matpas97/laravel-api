@@ -1930,7 +1930,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'App',
   components: {
-    ExampleComponent: _components_ExampleComponent_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
+    PostsComponent: PostsComponent
   }
 });
 
@@ -49730,6 +49730,7 @@ __webpack_require__.r(__webpack_exports__);
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
+window.axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 
 /**
  * The following block of code may be used to automatically register your
@@ -49846,8 +49847,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Applications/MAMP/htdocs/laravel-api/laravel-api/resources/js/front.js */"./resources/js/front.js");
-module.exports = __webpack_require__(/*! /Applications/MAMP/htdocs/laravel-api/laravel-api/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Applications/MAMP/htdocs/laravel-api/laravel/resources/js/front.js */"./resources/js/front.js");
+module.exports = __webpack_require__(/*! /Applications/MAMP/htdocs/laravel-api/laravel/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
